@@ -4,5 +4,6 @@ This project is a simple command-line Task Manager application implemented in Py
 # Features
 - Add new tasks with titles and descriptions.
 - Mark tasks as completed.
+- Delete Tasks
 - Display the list of tasks with their details.
 - User-friendly command-line interface.
