@@ -30,15 +30,19 @@ def add_task(title, description):
     else:
         return
     
-    print("\nTask added successfully")
+    print("\nTask added successfully.")
 
 #function to mark a task as completed
 def complete_task(task_index):
     task_list[task_index]["completed"] = True
 
+    print("\nTask marked as completed.")
+
 #function to delete a task
 def delete_task(task_index):
     task_list.pop(task_index)
+
+    print("\nTask deleted successfully.")
 
 #function to display all tasks
 def display_tasks():
