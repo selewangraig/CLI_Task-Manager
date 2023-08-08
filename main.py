@@ -44,12 +44,15 @@ def delete_task(task_index):
 
     print("\nTask deleted successfully.")
 
-#function to display all tasks
+#function to display tasks
 def display_tasks():
-    print("**********")
-    for index in range(0, len(task_list)):
-        print(f"{index} - {task_list[index]}")
-    print("**********")
+    if len(task_list) == 0:
+        print("\nSorry, there are no tasks to display.")
+    else:
+        print("**********")
+        for index in range(0, len(task_list)):
+            print(f"{index} - {task_list[index]}")
+        print("**********")
 
 #main program loop
 while True:
@@ -60,7 +63,7 @@ while True:
     print("4 - Display Tasks")
     print("Q - Quit")
 
-    choice = input("Enter your choice: ")
+    choice = input("\nEnter your choice: ")
 
     if choice == "1":
         title = input("Enter task title: ")
