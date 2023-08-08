@@ -1,5 +1,5 @@
 # Task Manager Project
-This project is a simple command-line Task Manager application implemented in Python. It allows users to manage their tasks by adding new tasks, marking tasks as completed, and viewing their task list.
+This project is a simple command-line Task Manager application implemented in Python. It allows users to manage their tasks by adding new tasks, marking tasks as completed, deleting tasks and viewing their task list.
 
 ## Features
 - Add new tasks with titles and descriptions.
